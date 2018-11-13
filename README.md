@@ -6,7 +6,8 @@
 
 * First of all, you can find github repo [here](https://github.com/zytfo/adv_stat_assignment_2)
 * Clone it to your local machine to open jupyter notebook and see all the plots. They will be opened in new tabs when you run all cells
-* You can find plots pictures in [*plots_pictures*](https://github.com/zytfo/adv_stat_assignment_2/tree/master/plots_pictures) folder.
+* You can find plots pictures in [*plots_pictures*](https://github.com/zytfo/adv_stat_assignment_2/tree/master/plots_pictures) folder
+* Red circle means start city
 
 ## Initial Google map with cities
 
@@ -19,7 +20,7 @@ As we can see, we have a terrible tour which consists all cities, but it is very
 ## Experiments
 
 
-I tried three different cooling rates:
+I tried four different cooling rates:
 * 0.1
 * 0.01
 * 0.001
@@ -96,6 +97,13 @@ Here we converge to 0 degrees in the 60000th iteration.
 >distance_0.0001.png
 
 Our distance changes a lot in first 25k. After 40k iterations, it almost converges to the minimum.
+
+| Cooling Rate  | Distance of the tour (km)|
+| ------------- |:-------------:|
+| 0.1           | 36676.39      |
+| 0.01          | 20772.67      |
+| 0.001         | 19118.26      |
+| 0.0001        | 19024.19      |
 
 # Conclusion
 
